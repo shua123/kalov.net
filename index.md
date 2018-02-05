@@ -1,6 +1,10 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
+
+New Page Coming Soon. In the meantime find me on...
+
+- LinkedIn: [JoshuaKalov](https://www.linkedin.com/in/joshuakalov)
+- Twitter: [@JoshKalov](https://www.twitter.com/joshkalov)
+- Email: josh@kalov.net
+- GitHub: [shua123](https://github.com/shua123)
