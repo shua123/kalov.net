@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Home for Josh Kalov
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kalov.net" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: "UA-18294146-1"
 twitter_username: joshkalov
 github_username:  shua123
 
