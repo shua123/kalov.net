@@ -16,12 +16,19 @@
 title: Josh Kalov
 email: josh@kalov.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Home for Josh Kalov
+  Josh Kalov
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kalov.net" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: "UA-18294146-1"
 twitter_username: joshkalov
 github_username:  shua123
+
+include: ["_pages"]
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
@@ -29,6 +36,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
