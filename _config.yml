@@ -41,7 +41,8 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - README-minima.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
