@@ -8,6 +8,8 @@ list_title: Blog Posts
 <div class="home">
   {% if site.posts.size > 0 %}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+
+    <p>Also see <a href="http://www.smartchicagocollaborative.org/author/jkalov/">Open Data/Civic Tech blogging with Smart Chicago Collaborative</a></p>
     <ul class="post-list">
       {% for post in site.posts %}
       <li>
